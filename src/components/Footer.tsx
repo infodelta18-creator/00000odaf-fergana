@@ -107,9 +107,9 @@ export default function Footer() {
               <div className="flex items-start space-x-3">
                 <MapPin className="w-4 h-4 text-accent mt-0.5" />
                 <span className="text-foreground/80 text-sm">
-                  Ma'rifat ko'chasi 73,
+                  Marg'ilon shahar (Shahar markazi),
                   <br />
-                  Marg'ilon shahri, 100150
+                  Oygul 2 va 3-qavat, 100150
                 </span>
               </div>
             </div>
@@ -139,7 +139,7 @@ export default function Footer() {
         <div className="border-t border-border mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-foreground/70 text-sm">
-              © {new Date().getFullYear()} DaF Sprachzentrum Fergana.{" "}
+              © {new Date().getFullYear()} LEC Margilan.{" "}
               {t("footer.rights")}
             </p>
             <div className="flex space-x-6 text-sm">
