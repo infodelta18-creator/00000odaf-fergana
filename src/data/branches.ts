@@ -7,7 +7,7 @@ export type Branch = {
   email?: string;
 };
 
-export const branches: Branch[] = 
+export const branches: Branch[] = [
   {
     id: "margilan",
     city: "Marg'ilon",
