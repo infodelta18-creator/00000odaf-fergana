@@ -6,10 +6,10 @@ import { useI18n } from "@/i18n/I18nProvider";
 import { Phone, Mail, MapPin, Send, Instagram } from "lucide-react";
 
 const socialLinks = [
-  { name: "Telegram", href: "https://t.me/daffergana", icon: Send },
+  { name: "Telegram", href: "https://t.me/leader_education_margilon", icon: Send },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/daf_fergana/",
+    href: "https://www.instagram.com/leadermargilon",
     icon: Instagram,
   },
 ];
@@ -17,9 +17,9 @@ const socialLinks = [
 export default function Footer() {
   const { t, locale } = useI18n();
   const isDe = locale === "de";
-  const contactPhone = "+998 90 535 10 99";
-  const contactPhoneHref = "tel:+998905351099";
-  const contactEmail = "info@daf-sprachzentrum.uz";
+  const contactPhone = "+998 90 776 15 16";
+  const contactPhoneHref = "tel:+998907761516";
+  const contactEmail = "leadermargilon@gmail.com";
   const contactEmailHref = `mailto:${contactEmail}`;
   const visibleSocialLinks = socialLinks;
 
@@ -40,7 +40,7 @@ export default function Footer() {
               {/* Light/Dark logo */}
               <Image
                 src="/assets/daf-logo-black.png"
-                alt="DaF Fergana logo"
+                alt="Leader margilon"
                 width={65}
                 height={65}
                 priority
@@ -49,7 +49,7 @@ export default function Footer() {
               />
               <Image
                 src="/assets/daf-logo-white.png"
-                alt="DaF Fergana logo"
+                alt="Leader margilon"
                 width={65}
                 height={65}
                 priority
@@ -58,7 +58,7 @@ export default function Footer() {
               />
               <span className="text-xl font-bold relative -left-10 -top-4">
                 {" "}
-                Fergana
+                Margilan
               </span>
             </div>
             <p className="text-foreground/80 text-sm leading-relaxed">
@@ -109,7 +109,7 @@ export default function Footer() {
                 <span className="text-foreground/80 text-sm">
                   Ma'rifat ko'chasi 73,
                   <br />
-                  Farg'ona shahri, 150100
+                  Marg'ilon shahri, 100150
                 </span>
               </div>
             </div>
